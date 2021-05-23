@@ -1,7 +1,7 @@
 % Strategy for Managing Industrial Anaerobic Sludge through the Heterotrophic Cultivation of Chlorella sorokiniana: Effect of Iron Addition on Biomass and Lipid Production
 %
 % Universidad Icesi
-% Esteban Charria-Girón, Vanessa Amazo, Daniela De Angulo, Eliana Hidalgo, María Francisca Villegas-Torres, Frank Baganz, Nelson. H Caicedo.
+% Esteban Charria-GirÃ³n, Vanessa Amazo, Daniela De Angulo, Eliana Hidalgo, MarÃ­a Francisca Villegas-Torres, Frank Baganz, Nelson. H Caicedo.
 %
 %%
 % The present script allows the user to the iron co-limitation effect on
@@ -67,10 +67,10 @@ hold on
     s1.MarkerEdgeColor= 'k';
     s2=scatter(x,y2,'LineWidth',1);
     s2.Marker = 's';
-    s2.MarkerEdgeColor= darkgreen;
+    s2.MarkerEdgeColor= 'r';
     s3=scatter(x,y1,'LineWidth',1);
     s3.Marker = 's';
-    s3.MarkerEdgeColor= darkgreen;
+    s3.MarkerEdgeColor= 'r';
     legend({'0 mg L^{-1} FeCl-{3}','12 mg L^{-1} FeCl-{3}','60 mg L^{-1} FeCl-{3}'},'Location','east','Orientation','vertical')
  
  elseif i==2
